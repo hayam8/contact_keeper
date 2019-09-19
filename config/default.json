@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://hayam8:Bi73G0zrN9s@contactkeeper-tzmaw.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://hayam8:Bi73G0zrN9s@contactkeeper-tzmaw.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "4M#6rnV@sqlNG5"
 }
