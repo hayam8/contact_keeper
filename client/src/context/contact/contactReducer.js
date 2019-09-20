@@ -7,6 +7,7 @@ import {
   FILTER_CONTACTS,
   CLEAR_FILTER
 } from "../types";
+import { truncate } from "fs";
 
 export default (state, action) => {
   switch (action.type) {
@@ -38,6 +39,12 @@ export default (state, action) => {
       };
 
     case UPDATE_CONTACT:
+      return {
+        ...state,
+        contacts: state.contacts.map(contact =>
+          contact.id === action.payload.id ? action.payload : contact
+        )
+      };
 
     case FILTER_CONTACTS:
 
