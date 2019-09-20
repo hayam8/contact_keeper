@@ -17,6 +17,13 @@ export default (state, action) => {
       };
 
     case DELETE_CONTACT:
+      return {
+        ...state,
+        // returns all contacts that do not match current id
+        contacts: state.contacts.filter(
+          contact => contact.id !== action.payload
+        )
+      };
 
     case SET_CURRENT:
 
