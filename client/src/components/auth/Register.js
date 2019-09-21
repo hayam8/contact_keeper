@@ -1,7 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import AlertContext from "../../context/alert/alertContext";
 import AuthContext from "../../context/auth/authContext";
-import authContext from "../../context/auth/authContext";
 
 const Register = props => {
   const alertContext = useContext(AlertContext);
