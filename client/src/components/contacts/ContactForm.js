@@ -43,12 +43,7 @@ const ContactForm = () => {
     }
 
     // clear contact form after submitted
-    setContact({
-      name: "",
-      email: "",
-      phone: "",
-      type: "personal"
-    });
+    clearAll();
   };
 
   const clearAll = () => {
