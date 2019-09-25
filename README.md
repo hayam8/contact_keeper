@@ -1,6 +1,6 @@
 # Contact Keeper
 
-> Full stack MERN contact manager with React hooks, context & JWT authentication.
+> Full stack MERN contact manager with React hooks, context & JWT authentication. Uses MongoDB Atlas as a cloud database for storing users and contact lists for users.
 
 ## Usage
 
